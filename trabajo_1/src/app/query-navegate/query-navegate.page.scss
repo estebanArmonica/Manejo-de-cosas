@@ -1,0 +1,23 @@
+ion-content {
+  --background: rgb(235, 229, 229) ;
+}
+
+ion-toolbar {
+  --background: rgb(47, 47, 47) ;
+
+  ion-title{
+    --color: white;
+  }
+}
+
+ion-button {
+  --background: #1b317f;
+  --background-hover: #243e9d;
+
+  --color: #fff;
+
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+}
+
+

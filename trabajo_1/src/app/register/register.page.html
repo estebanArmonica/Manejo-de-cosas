@@ -1,0 +1,30 @@
+<ion-content class="container">
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <h1 style="text-align: center; color: black;"><b>REGISTRARSE</b></h1>
+  <br>
+
+  <ion-label position="stacked" style="padding: 10px; color: black;" ><b>EMAIL</b></ion-label>
+  <ion-input [clearInput]="true" placeholder="usuario" class="custom" type="email"></ion-input>
+  <hr class="solid">
+
+  <ion-label position="stacked" style="padding: 10px; color: black;" ><b>USERNAME</b></ion-label>
+  <ion-input [clearInput]="true" placeholder="usuario" class="custom" type="text"></ion-input>
+  <hr class="solid">
+
+  <ion-label position="stacked" style="padding: 10px; color: black;"><b>PASSWORD</b></ion-label>
+  <ion-input [clearInput]="true" placeholder="contraseña" class="custom" type="password"></ion-input>
+  <hr>
+
+
+  <br>
+  <ion-button expand="block" [routerLink]="['/login']">Registrarse</ion-button>
+  <p style="text-align: center; color: black;">tengo una cuenta
+    <a [routerLink]="['/login']" style="text-decoration: none; color: #1b317f;">
+      Inciar Sesion
+    </a>
+  </p>
+</ion-content>

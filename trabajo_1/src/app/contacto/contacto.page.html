@@ -1,0 +1,38 @@
+<ion-content>
+  <!-- boton de volver -->
+  <ion-fab slot="fixed" vertical="top" horizontal="start">
+    <ion-fab-button color="medium" [routerLink]="['/folder/inbox']">
+      <ion-icon name="caret-back-circle"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <br>
+  <br>
+  <br>
+
+  <!-- titulo -->
+  <h1 style="text-align: center;">Contacto</h1>
+  <br>
+
+  <ion-card>
+    <!-- una descripcion -->
+    <ion-card-content>
+      puedes enviarnos un correo en caso de que tengas cualquier duda
+    </ion-card-content>
+  </ion-card>
+
+  <!-- formulario -->
+  <ion-card>
+    <ion-card-content>
+      <ion-input placeholder="Nombre" class="custom"></ion-input>
+      <br>
+      <ion-input placeholder="Correo electrónico" class="custom"></ion-input>
+      <br>
+      <ion-input placeholder="Número de telefono" class="custom"></ion-input>
+      <br>
+      <ion-input placeholder="Mensaje" class="custom"></ion-input>
+      <br>
+      <ion-button expand="full" color="warning">Enviar</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

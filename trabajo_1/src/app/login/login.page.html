@@ -1,0 +1,26 @@
+<ion-content class="container">
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <h1 style="text-align: center; color: black;"><b>INICIAR SESIÓN</b></h1>
+  <br>
+
+  <ion-label position="stacked" style="padding: 10px; color: black;" ><b>USERNAME</b></ion-label>
+  <ion-input [clearInput]="true" placeholder="usuario" class="custom" type="text"></ion-input>
+  <hr class="solid">
+
+  <ion-label position="stacked" style="padding: 10px; color: black;"><b>PASSWORD</b></ion-label>
+  <ion-input [clearInput]="true" placeholder="contraseña" class="custom" type="password"></ion-input>
+  <hr>
+
+
+  <br>
+  <ion-button expand="block" [routerLink]="['/folder/inbox']">Iniciar Sesion</ion-button>
+  <p style="text-align: center; color: black;">No tengo cuenta
+    <a [routerLink]="['/register']" style="text-decoration: none; color: #1b317f;">
+      registrate
+    </a>
+  </p>
+</ion-content>

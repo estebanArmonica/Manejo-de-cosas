@@ -1,0 +1,42 @@
+ion-toolbar {
+  --background: rgb(47, 47, 47) ;
+
+  ion-title{
+    --color: white;
+  }
+}
+
+
+
+ion-content {
+  --background: rgb(235, 229, 229) ;
+}
+
+
+ion-menu-button {
+  color: var(--ion-color-primary);
+}
+
+ion-item {
+  --background: rgb(179, 178, 178);
+}
+
+#container {
+  text-align: center;
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
